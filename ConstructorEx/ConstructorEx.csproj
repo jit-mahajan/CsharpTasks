@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7129F9C2-5C5C-4B15-AAFD-36283A8E15FF}</ProjectGuid>
+    <ProjectGuid>{68C7E1A1-FED0-48E6-9899-AA287C87095A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ConstructorOverloading</RootNamespace>
-    <AssemblyName>ConstructorOverloading</AssemblyName>
+    <RootNamespace>ConstructorEx</RootNamespace>
+    <AssemblyName>ConstructorEx</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Car.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Vehicle.cs" />
