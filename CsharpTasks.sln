@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringInterpolation", "Stri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringAndStringBuilder", "StringAndStringBuilder\StringAndStringBuilder.csproj", "{319CBBF6-A52E-4930-8E1C-39A42ABDD6A3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefAndOutUse", "RefAndOutUse\RefAndOutUse.csproj", "{5BF428FB-9CA4-4E82-AFA6-612E605FDB7A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{319CBBF6-A52E-4930-8E1C-39A42ABDD6A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{319CBBF6-A52E-4930-8E1C-39A42ABDD6A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{319CBBF6-A52E-4930-8E1C-39A42ABDD6A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BF428FB-9CA4-4E82-AFA6-612E605FDB7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BF428FB-9CA4-4E82-AFA6-612E605FDB7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BF428FB-9CA4-4E82-AFA6-612E605FDB7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BF428FB-9CA4-4E82-AFA6-612E605FDB7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
